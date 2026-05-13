@@ -28,7 +28,7 @@ Please note that this product has been designed by a hobbyist, not a professiona
 
 # DBC
 
-DBC file can be found [here](https://github.com/corygrant/CANBoard/tree/main/dbc)
+DBC file can be found [here](https://github.com/corygrant/dingoFW/tree/master/dbc)
 
 # BOM
 
