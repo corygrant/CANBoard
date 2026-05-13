@@ -1,4 +1,4 @@
-# CANBoard_HW
+# CANBoard
 CANBoard is a simple CAN enabled IO board, specifically designed to be used in devices like steering wheels/button boxes/panels/etc.
 
 * 8 digital inputs
@@ -28,11 +28,11 @@ Please note that this product has been designed by a hobbyist, not a professiona
 
 # DBC
 
-DBC file can be found [here](https://github.com/corygrant/CANBoard_FW/tree/main/dbc)
+DBC file can be found [here](https://github.com/corygrant/CANBoard/tree/main/dbc)
 
 # BOM
 
-[Interactive BOM](https://htmlpreview.github.io/?https://github.com/corygrant/CANBoard_HW/blob/main/docs/bom/ibom.html)
+[Interactive BOM](https://htmlpreview.github.io/?https://github.com/corygrant/CANBoard/blob/main/docs/bom/ibom.html)
 
 # Jumpers
 **CAN Term** : Soldering this jumper enables the 120 ohm terminating resistor across CANL/CANH
@@ -46,7 +46,7 @@ DBC file can be found [here](https://github.com/corygrant/CANBoard_FW/tree/main/
 | Closed | Closed | 0x670 |
 
 # Firmware
-[CANBoard firmware](https://github.com/corygrant/CANBoard_FW)
+[dingoFW](https://github.com/corygrant/dingoFW)
 
 # Updating Firmware
 Use [Tag Connect TC2030 cable](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) 
