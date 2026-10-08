@@ -9,7 +9,7 @@ CANBoard is a simple CAN enabled IO board, specifically designed to be used in d
     * Low side switch (open collector)
     * 0.5A max each
 * STM32F303K8
-* KiCad 7.0.0
+* KiCad 9
 
 # Goals
 - Create a low cost device that my friends and I can use in our project cars
