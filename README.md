@@ -37,13 +37,18 @@ DBC file can be found [here](https://github.com/corygrant/dingoFW/tree/master/db
 # Jumpers
 **CAN Term** : Soldering this jumper enables the 120 ohm terminating resistor across CANL/CANH
 
-**CAN ID Jumpers 1 and 2** : Soldering these jumpers allows different base CAN IDs to be selected when using multiple CANBoards in the same bus
+**CAN ID Jumpers 1 and 2** : Not used by [dingoFW](https://github.com/corygrant/dingoFW). The base CAN ID (default 0x640) and bitrate are set with [dingoConfig](https://github.com/corygrant/dingoConfig). When using multiple CANBoards on the same bus, give each one a different base ID in dingoConfig.
+
+The jumpers were used by the old [CANBoard_FW](https://github.com/corygrant/CANBoard_FW) firmware:
 | 1      | 2      | Base CAN ID (Hex)|
 | ------ | ------ | ----- |
 | Open   | Open   | 0x640 |
 | Closed | Open   | 0x650 |
 | Open   | Closed | 0x660 |
 | Closed | Closed | 0x670 |
+
+# Documentation
+[CANBoard documentation](https://corygrant.github.io/dingoElec/canboard/introduction/)
 
 # Firmware
 [dingoFW](https://github.com/corygrant/dingoFW)
